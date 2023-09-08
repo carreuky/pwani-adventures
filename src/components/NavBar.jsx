@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "/logo.png";
 
 export default function NavBar() {
   return (
@@ -10,13 +11,7 @@ export default function NavBar() {
         >
           <div className="relative md:flex md:items-center md:justify-between">
             <div className="flex items-center justify-between ">
-              <a
-                className="flex-none text-xl font-semibold dark:text-white"
-                href="#"
-                aria-label="Brand"
-              >
-                Brand
-              </a>
+              <img className="object-cover h-34 w-34" src={logo} alt="logo" />
               <div className="md:hidden">
                 <button
                   type="button"
@@ -53,11 +48,7 @@ export default function NavBar() {
             >
               <div className="overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-y">
                 <div className="flex flex-col  mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid dark:divide-gray-700">
-                  <a
-                    className="font-medium text-blue-600 py-3 md:py-6 dark:text-blue-500 pr-3"
-                    href="#"
-                    aria-current="page"
-                  >
+                  <a className="text-white pr-3 px-3" aria-current="page" href="#">
                     HOME
                   </a>
 

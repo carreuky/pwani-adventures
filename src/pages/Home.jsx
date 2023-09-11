@@ -1,6 +1,9 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import group11 from "../assets/back.png";
+import Whyus from "../components/Whyus";
+import Funjoint from "../components/Funjoint";
+import Funpoint from "../components/Funpoint";
 
 export default function Home() {
   return (
@@ -14,7 +17,7 @@ export default function Home() {
         }}
       >
         <div className="pt-36   text-white max-w-2xl">
-          <h1 className="lg:text-5xl font-semibold leading-loose">
+          <h1 className="lg:text-5xl font-semibold leading-relaxed">
             Explore the world with exciting people
           </h1>
           <p className="pt-6">
@@ -37,18 +40,16 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
               massa mi. Aliquam in hendrerit urna. Pellentesque sit amet.
             </span>
-      
           </div>
           <div className="">
             <h6 className="mb-1 font-semibold leading-5">02</h6>
             <p className="max-w-md mb-1 font-semibold text-sm sm:mx-auto">
-            Lets connect and fit your budget.
+              Lets connect and fit your budget.
             </p>
             <span className="text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
               massa mi. Aliquam in hendrerit urna. Pellentesque sit amet.
             </span>
-      
           </div>
           <div className="">
             <h6 className="mb-1 font-semibold leading-5">03</h6>
@@ -59,10 +60,15 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
               massa mi. Aliquam in hendrerit urna. Pellentesque sit amet.
             </span>
-      
           </div>
         </div>
       </section>
+      <section className="bg-[#F4F4F4]">
+      <Whyus/>
+      <Funjoint/>
+      <Funpoint/>
+      </section>
+      
     </div>
   );
 }

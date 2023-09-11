@@ -3,15 +3,15 @@ import logo from "/logo.png";
 
 export default function NavBar() {
   return (
-    <div>
-      <header className="lg:px-16 lg:pr-24 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full  text-sm py-3 md:py-0 dark:bg-gray-800">
+    <div >
+      <header className="lg:px-16 lg:pr-24 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full  text-sm py-3 md:py-0  lg:px-4  fixed top-0 left-0 w-full  transition-transform duration-300 transform z-10">
         <nav
           className="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8"
           aria-label="Global"
         >
           <div className="relative md:flex md:items-center md:justify-between">
             <div className="flex items-center justify-between ">
-              <img className="object-cover h-34 w-34" src={logo} alt="logo" />
+              <img className="object-cover h-24 w-34" src={logo} alt="logo" />
               <div className="md:hidden">
                 <button
                   type="button"
@@ -47,7 +47,7 @@ export default function NavBar() {
               className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block"
             >
               <div className="overflow-hidden overflow-y-auto max-h-[75vh] scrollbar-y">
-                <div className="flex flex-col  mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid dark:divide-gray-700">
+                <div className="navbar flex flex-col  mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid dark:divide-gray-700">
                   <a className="text-white pr-3 px-3" aria-current="page" href="#">
                     HOME
                   </a>

@@ -8,16 +8,15 @@ import Funpoint from "../components/Funpoint";
 export default function Home() {
   return (
     <div>
-      <NavBar />
       <section
-        className="bg-hero-pattern  bg-no-repeat bg-cover bg-center  text-white px-16	"
+        className="bg-hero-pattern  bg-no-repeat bg-cover bg-center  text-white lg:px-16 px-8 	"
         style={{
-          height: "100vh",
+          // height: "100vh",
           backgroundImage: `url(${group11})`,
         }}
       >
         <div className="pt-36   text-white max-w-2xl">
-          <h1 className="lg:text-5xl font-semibold leading-relaxed">
+          <h1 className="lg:text-5xl text-2xl font-semibold leading-relaxed">
             Explore the world with exciting people
           </h1>
           <p className="pt-6">
@@ -30,7 +29,7 @@ export default function Home() {
         </div>
         <hr className="bg-white mt-14 mb-6" />
 
-        <div className="grid gap-8 row-gap-5 lg:grid-cols-3">
+        <div className="grid gap-8 row-gap-5 lg:grid-cols-3 pb-2">
           <div className="">
             <h6 className="mb-1 font-semibold leading-5">01</h6>
             <p className="max-w-md mb-1 font-semibold text-sm sm:mx-auto">

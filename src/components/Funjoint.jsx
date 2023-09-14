@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Funjoint() {
   return (
-    <section className="px-16">
+    <section className="lg:px-16 px-8 ">
       <h1 className="text-sm mb-2">FUN JOINT</h1>
       <p className="text-[#F47E3B] text-2xl">UPCOMING EVENTS</p>
       <div class=" py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:py-12">

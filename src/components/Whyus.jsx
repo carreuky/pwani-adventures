@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Whyus() {
   return (
-    <div class="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3 text-black px-16	">
+    <div class="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3 text-black lg:px-16 px-8 	">
       <div class="py-8">
         <div class="max-w-md">
           <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">

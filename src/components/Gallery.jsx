@@ -1,5 +1,5 @@
 import React from "react";
-import arabuko from "../assets/arabuko.jpg";
+import arabuko from "../assets/bonfire.png";
 import ride from "../assets/ride.png";
 import funkids from "../assets/funkids.jpeg";
 import nightfun from "../assets/nightfun.jpg";
@@ -7,7 +7,13 @@ import bonfire from "../assets/bonfire.png";
 
 export default function Gallery() {
   return (
-    <div class="grid max-w-screen md:row-gap-4 sm:mx-auto lg:grid-cols-3 gap-4 lg:px-16 px-8 ">
+    <section className="lg:px-16 px-8 py-8">
+      <div className="text-center my-4">
+      <p className="mb-2 uppercase">Trip Gallery</p>
+      <h1 className="text-[#F47E3B] text-3xl font-bold">Completed Journey</h1>
+      </div>
+      
+    <div class="grid max-w-screen md:row-gap-4 sm:mx-auto lg:grid-cols-3 gap-4 py-4 ">
       <div class=" relative">
         <img
           src={arabuko}
@@ -72,5 +78,6 @@ export default function Gallery() {
         </div>
       </div>{" "}
     </div>
+    </section>
   );
 }

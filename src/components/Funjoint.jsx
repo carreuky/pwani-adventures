@@ -45,7 +45,7 @@ export default function Funjoint() {
             </div>
             <div class="px-6 py-8 border border-t-0 rounded-b sm:px-8">
               <h5 class="mb-2 text-xl font-bold leading-none sm:text-2xl">
-                Baobab
+                DION STUNTIN
               </h5>
               <p>22/09/23</p>
               {/* <p class="mb-5 text-gray-700">

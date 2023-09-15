@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="">
       <section
-        className="bg-hero-pattern  bg-no-repeat bg-cover bg-center  text-white lg:px-16 px-8 	"
+        className="bg-hero-pattern home  bg-no-repeat bg-cover bg-center  text-white lg:px-16 px-8 	"
         style={{
           // height: "100vh",
           backgroundImage: `url(${group11})`,

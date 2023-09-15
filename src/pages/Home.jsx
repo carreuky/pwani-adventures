@@ -4,10 +4,11 @@ import group11 from "../assets/back.png";
 import Whyus from "../components/Whyus";
 import Funjoint from "../components/Funjoint";
 import Funpoint from "../components/Funpoint";
+import Gallery from "../components/Gallery";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <section
         className="bg-hero-pattern  bg-no-repeat bg-cover bg-center  text-white lg:px-16 px-8 	"
         style={{
@@ -66,6 +67,7 @@ export default function Home() {
       <Whyus/>
       <Funjoint/>
       <Funpoint/>
+      <Gallery/>
       </section>
       
     </div>

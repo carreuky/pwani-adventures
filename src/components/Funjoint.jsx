@@ -1,4 +1,5 @@
 import React from "react";
+import bonfire from "../assets/bonfire.png"
 
 export default function Funjoint() {
   return (
@@ -11,7 +12,7 @@ export default function Funjoint() {
             <div class="relative">
               <img
                 class="object-cover w-full h-64 rounded-t xl:h-96"
-                src="https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src={bonfire}
                 alt=""
               />
               <div class="absolute inset-0 bg-gray-800 bg-opacity-25"></div>

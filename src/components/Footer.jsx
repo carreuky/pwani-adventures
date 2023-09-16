@@ -1,18 +1,19 @@
 import React from "react";
 import footerlogo from "../assets/flogo.png";
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   const d = new Date();
   let year = d.getFullYear();
   return (
-    <footer className="bg-[#F47E3B] px-4">
+    <footer className="bg-[#F47E3B] lg:px-12 px-8">
       <div className="flex">
         <div className="w-16">
           <img class="  object-cover" src={footerlogo} alt="avatar" />
         </div>
         <div
-          className="navbar w-full text-xs font-bold
-                 flex   flex-wrap items-center justify-end md:gap-x-7 md:mt-0 md:pl-7 "
+          className="navbar w-full text-xs 
+                 flex   flex-wrap items-center justify-end md:gap-x-7 md:mt-0 md:pl-6 "
         >
           <a className="text-white pr-3 px-3" aria-current="page" href="#">
             HOME
@@ -39,25 +40,33 @@ export default function Footer() {
           <li>
             <a
               href="/"
-              class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
-              F.A.Q
+              <FaInstagram />{" "}
             </a>
           </li>
           <li>
             <a
               href="/"
-              class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
-              Privacy Policy
+              <FaFacebook />
             </a>
           </li>
           <li>
             <a
               href="/"
-              class="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
-              Terms &amp; Conditions
+              <FaTwitter />
+            </a>
+          </li>
+          <li>
+            <a
+              href="/"
+              class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
+            >
+              <FaYoutube />
             </a>
           </li>
         </ul>

@@ -33,10 +33,10 @@ export default function Footer() {
       </div>
       <hr className="text-xs" />
 
-      <div class="flex flex-col-reverse justify-between  lg:flex-row py-3">
+      <div class="flex justify-between  py-3">
         <p className="text-xs text-white ">Copyright {year} Carreuky</p>
 
-        <ul class="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+        <ul class="flex lg:gap-4 gap-2">
           <li>
             <a
               href="/"

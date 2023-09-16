@@ -3,7 +3,7 @@ import testimony from "../assets/testimony.png";
 
 export default function Testimonials() {
   return (
-    <div class=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  lg:py-20 lg:px-16 px-8 ">
+    <div class=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  lg:py-20 lg:px-16 p-8 ">
       <div class="flex flex-col lg:flex-row">
         <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
           <h2 class="mb-4  text-3xl font-bold tracking-tight text-[#F47E3B] sm:text-4xl sm:leading-none">

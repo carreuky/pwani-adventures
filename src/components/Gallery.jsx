@@ -1,5 +1,5 @@
 import React from "react";
-import arabuko from "../assets/bonfire.png";
+import arabuko from "../assets/arabuko.jpg";
 import ride from "../assets/ride.png";
 import funkids from "../assets/funkids.jpeg";
 import nightfun from "../assets/nightfun.jpg";
@@ -77,6 +77,10 @@ export default function Gallery() {
           <span className="font-bold">15 participants</span>
         </div>
       </div>{" "}
+    </div>
+    <div className="flex items-center justify-center my-2">
+    <button className="text-center text-white bg-[#F47E3B] p-2 rounded-full"> More Journey</button>
+
     </div>
     </section>
   );

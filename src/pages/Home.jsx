@@ -5,6 +5,7 @@ import Whyus from "../components/Whyus";
 import Funjoint from "../components/Funjoint";
 import Funpoint from "../components/Funpoint";
 import Gallery from "../components/Gallery";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -68,6 +69,7 @@ export default function Home() {
       <Funjoint/>
       <Funpoint/>
       <Gallery/>
+      <Testimonials/>
       </section>
       
     </div>

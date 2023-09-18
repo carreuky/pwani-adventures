@@ -39,7 +39,8 @@ export default function Footer() {
         <ul class="flex lg:gap-4 gap-2">
           <li>
             <a
-              href="https//instagram.com/pwaniadventures"
+              target="_blank"
+              href="https://instagram.com/pwaniadventures"
               class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <FaInstagram />{" "}
@@ -47,7 +48,8 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="https//facebook.com/pwaniadventures"
+              target="_blank"
+              href="https://facebook.com/pwaniadventures"
               class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <FaFacebook />
@@ -55,7 +57,8 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href="https//twitter.com/pwaniadventures"
+              target="_blank"
+              href="https://twitter.com/pwaniadventures"
               class="text-xl text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <FaTwitter />

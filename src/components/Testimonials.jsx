@@ -3,6 +3,7 @@ import testimony from "../assets/testimony.png";
 import testimonies from "../assets/Data/Testimonials/Testimonials.json";
 import {FaStar} from "react-icons/fa"
 import Rating from "./Ratings";
+import pic from "../assets/Data/Testimonials/images/person1.png"
 
 export default function Testimonials() {
   const [test ,setTest] = useState(testimonies[0])
@@ -40,7 +41,7 @@ export default function Testimonials() {
         <div class="lg:w-1/2 flex justify-center items-center">
           <img
             src={testimony}
-            alt=""
+            alt="Profile"
             className="object-cover w-auto h-64 rounded-t xl:h-72"
           />
         </div>

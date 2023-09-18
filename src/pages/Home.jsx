@@ -6,6 +6,7 @@ import Funjoint from "../components/Funjoint";
 import Funpoint from "../components/Funpoint";
 import Gallery from "../components/Gallery";
 import Testimonials from "../components/Testimonials";
+import Whatsapp from "../components/Whatsapp";
 
 export default function Home() {
   return (
@@ -70,6 +71,7 @@ export default function Home() {
       <Funpoint/>
       <Gallery/>
       <Testimonials/>
+      <Whatsapp/>
       </section>
       
     </div>

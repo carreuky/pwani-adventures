@@ -78,9 +78,8 @@ export default function Gallery() {
         </div>
       </div>{" "}
     </div>
-    <div className="flex items-center justify-center my-2">
+    <div className="flex items-center justify-center mt-4">
     <button className="text-center text-white bg-[#F47E3B] p-2 rounded-full"> More Journey</button>
-
     </div>
     </section>
   );

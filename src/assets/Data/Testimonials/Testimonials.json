@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "image": "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).jpg",
+        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
+        "name": "John Doe",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "image": "../assets/Data/Testimonials/images/person1.png",
+        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
+        "name": "Eloise Chitaki",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "image": "./images/person2.png",
+        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
+        "name": "Mike Benzo",
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "image": "../assets/Data/Testimonials/images/person3.png",
+        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
+        "name": "Mike Thomas",
+        "rating": 2
+    }
+]

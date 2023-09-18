@@ -1,7 +1,29 @@
-import React from "react";
+import React,{useState} from "react";
 import testimony from "../assets/testimony.png";
+import testimonies from "../assets/Data/Testimonials/Testimonials.json";
+import {FaStar} from "react-icons/fa"
+import Rating from "./Ratings";
 
 export default function Testimonials() {
+  const [test ,setTest] = useState(testimonies[0])
+  const testMomials = testimonies.slice(0, 5).map((test) => {
+    var name = test.name.split(" ");
+    var first = name[0];
+    return (
+      <div className="text-center cursor-pointer">
+        <img
+          onClick={()=>setTest(test)}
+          class="mx-auto mb-4 w-12 h-12 object-cover  rounded-full shadow-lg dark:shadow-black/20"
+          src={test.image}
+          alt="avatar"
+        />
+        <p className="text-sm">{first}</p>
+      </div>
+    );
+  });
+
+  
+
   return (
     <div class=" mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24  lg:py-20 lg:px-16 p-8 ">
       <div class="flex flex-col lg:flex-row">
@@ -10,39 +32,10 @@ export default function Testimonials() {
             What our happy client say
           </h2>
           <p className=" text-sm my-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-            mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-            fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-            vitae mattis tellus.
+            {test?.desc}
           </p>
-          <div className="flex gap-4">
-            <div className="text-center cursor-pointer">
-              <img
-                class="mx-auto mb-4 w-12 h-12 object-cover  rounded-full shadow-lg dark:shadow-black/20"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).jpg"
-                alt="avatar"
-              />
-              <p className="text-sm" >Peter</p>
-            </div>
-            <div className="text-center cursor-pointer">
-              <img
-                class="mx-auto mb-4 w-12 h-12 object-cover  rounded-full shadow-lg dark:shadow-black/20"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).jpg"
-                alt="avatar"
-              />
-              <p  className="text-sm">Joe</p>
-            </div>
-            <div className="text-center cursor-pointer">
-              <img
-                class="mx-auto mb-4 w-12 h-12 object-cover  rounded-full shadow-lg dark:shadow-black/20"
-                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).jpg"
-                alt="avatar"
-              />
-              <p className="text-sm">Tim</p>
-            </div>
-          </div>
-
-          
+          <Rating digit={test?.rating}/>
+          <div className="flex gap-4 my-3 ">{testMomials}</div>
         </div>
         <div class="lg:w-1/2 flex justify-center items-center">
           <img

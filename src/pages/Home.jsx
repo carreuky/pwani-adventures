@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../components/NavBar";
 import group11 from "../assets/back.png";
 import Whyus from "../components/Whyus";
@@ -9,6 +9,20 @@ import Testimonials from "../components/Testimonials";
 import Whatsapp from "../components/Whatsapp";
 
 export default function Home() {
+ // Define a state variable to track the currently expanded section
+//  const [expandedSection, setExpandedSection] = useState(null);
+
+//  // Function to toggle the expanded state for a section
+//  const toggleExpand = (sectionId) => {
+//    if (expandedSection === sectionId) {
+//      // If the clicked section is already expanded, close it
+//      setExpandedSection(null);
+//    } else {
+//      // If a different section is clicked, expand it and close the previous one
+//      setExpandedSection(sectionId);
+//    }
+//  };
+
   return (
     <div className="">
       <section
@@ -66,14 +80,32 @@ export default function Home() {
         </div>
       </section>
       <section className="bg-[#F4F4F4]">
-      <Whyus/>
-      <Funjoint/>
-      <Funpoint/>
-      <Gallery/>
-      <Testimonials/>
-      <Whatsapp/>
+        <Whyus />
+        <Funjoint />
+        <Funpoint />
+        <Gallery />
+        <Testimonials />
+        <Whatsapp />
       </section>
-      
+      {/* <div>
+      <h2 onClick={() => toggleExpand(1)}>Section 1</h2>
+      {expandedSection === 1 && (
+        <div>
+          <p>This is the content for Section 1.</p>
+          <p>You can add more content here.</p>
+        </div>
+      )}
+
+      <h2 onClick={() => toggleExpand(2)}>Section 2</h2>
+      {expandedSection === 2 && (
+        <div>
+          <p>This is the content for Section 2.</p>
+          <p>You can add more content here.</p>
+        </div>
+      )} */}
+
+      {/* Add more sections as needed */}
+    {/* </div> */}
     </div>
   );
 }

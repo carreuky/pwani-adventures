@@ -30,7 +30,7 @@ export default function Funjoint() {
               <a href=""
                 class="text-[#F47E3B] px-6 font-medium tracking-wide  transition duration-200 "
               >
-                Read more
+                More info
               </a>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Funjoint() {
              <a href=""
                 class="text-[#F47E3B] px-6 font-medium tracking-wide  transition duration-200 "
               >
-                Read more
+                More info
               </a>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Funjoint() {
               <a href=""
                 class="text-[#F47E3B] px-6 font-medium tracking-wide  transition duration-200 "
               >
-                Read more
+                More info
               </a>
             </div>
           </div>

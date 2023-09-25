@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "image": "https://res.cloudinary.com/dodzzvz3z/image/upload/v1695647128/pwani%20adventures/bonfire_xuqqd3.png",
+        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
+        "name": "baobab",
+        "packages": [
+            "4 Nights Accomodation on Bed & Breakfast",
+            "Return  Transfers",
+            "Pwani Safaris",
+            "Dhow Cruise Dinner",
+            "Dubai City Tour"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "/src/assets/Data/Testimonials/images/person1.png",
+        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
+        "name": "Eloise Chitaki",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "image": "/src/assets/Data/Testimonials/images/person2.png",
+        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
+        "name": "Mike Benzo",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "image": "/src/assets/Data/Testimonials/images/person3.png",
+        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
+        "name": "Mike Thomas",
+        "rating": 5
+    }
+]

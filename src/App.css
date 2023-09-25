@@ -9,3 +9,6 @@
         left: 20px;
         z-index: 10;
 }
+.list .square {
+        list-style-type: square;      
+}

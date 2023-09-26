@@ -19,7 +19,6 @@ export default function Funpoint() {
           src={guide}
           className=" object-fit  lg:w-64  h-56 w-full  rounded-t"
           alt=""
-          srcset=""
         />
         <div className=" ">
           <div className="py-1">

@@ -1,12 +1,37 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import logo from "/logo.png";
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const style = `flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full   py-3 md:py-0  lg:px-4  fixed top-0 left-0 w-full  transition-transform duration-300 transform z-10'
+   ${
+    scrolled ? "md:bg-[#f4f4f4] lg:bg-[#f4f4f4]  text-[#ED377E]" : "bg-transparent text-white"
+  }`;
+
+  
 
   return (
-    <div>
-      <header className="lg:px-16 lg:pr-24 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full  text-sm py-3 md:py-0  lg:px-4  fixed top-0 left-0 w-full  transition-transform duration-300 transform z-10">
+    <div className="lg:px-16 lg:pr-24 text-sm ">
+      {/* <header className=" flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full   py-3 md:py-0  lg:px-4  fixed top-0 left-0 w-full  transition-transform duration-300 transform z-10"> */}
+      <header className={style}>
         <nav
           className="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8"
           aria-label="Global"
@@ -27,9 +52,9 @@ export default function NavBar() {
                     className="text-gray-900 dark:text-gray-100 h-8 w-8"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                   <svg
@@ -55,21 +80,21 @@ export default function NavBar() {
                  flex flex-col  mt-5 divide-y divide-dashed divide-gray-200 md:flex-row md:items-center md:justify-end md:gap-x-7 md:mt-0 md:pl-7 md:divide-y-0 md:divide-solid dark:divide-gray-700"
                 >
                   <a
-                    className="text-white pr-3 px-3"
+                    className="pr-3 px-3"
                     aria-current="page"
                     href="#"
                   >
                     HOME
                   </a>
 
-                  <a className="text-white pr-3 px-3" href="#">
+                  <a className=" pr-3 px-3" href="#">
                     ABOUT
                   </a>
 
-                  <a className="text-white pr-3" href="#">
+                  <a className=" pr-3" href="#">
                     SERVICES
                   </a>
-                  <a className="text-white pr-3" href="#">
+                  <a className=" pr-3" href="#">
                     CONTACT US
                   </a>
                 </div>

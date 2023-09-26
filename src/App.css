@@ -1,6 +1,5 @@
-.navbar > a:hover {
-    color: #ED377E;
-    font-weight: bold;
+.navbar > a{
+    /* color: #ED377E; */
 }
 
 .whatsapp {

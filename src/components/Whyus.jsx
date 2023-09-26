@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Whyus() {
   return (
-    <div class="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3 text-black lg:px-16 px-8 	">
-      <div class="py-8">
-        <div class="max-w-md">
-          <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+    <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3 text-black lg:px-16 px-8 	">
+      <div className="py-8">
+        <div className="max-w-md">
+          <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
             <svg
               width="100"
               height="100"
@@ -19,16 +19,16 @@ export default function Whyus() {
               />
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Enjoy some flexibility</h6>
-          <p class="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 font-semibold leading-5">Enjoy some flexibility</h6>
+          <p className="mb-3 text-sm text-gray-900">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
           </p>
         </div>
       </div>
-      <div class="py-8">
-        <div class="max-w-md">
-          <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+      <div className="py-8">
+        <div className="max-w-md">
+          <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
             <svg
               width="60"
               height="60"
@@ -42,18 +42,18 @@ export default function Whyus() {
               />
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">
+          <h6 className="mb-2 font-semibold leading-5">
             More than fun in our activities
           </h6>
-          <p class="mb-3 text-sm text-gray-900">
+          <p className="mb-3 text-sm text-gray-900">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
           </p>
         </div>
       </div>
-      <div class="py-8">
-        <div class="max-w-md">
-          <div class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
+      <div className="py-8">
+        <div className="max-w-md">
+          <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-16 sm:h-16">
             <svg
               width="60"
               height="60"
@@ -67,8 +67,8 @@ export default function Whyus() {
               />
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">Best tailored packages</h6>
-          <p class="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 font-semibold leading-5">Best tailored packages</h6>
+          <p className="mb-3 text-sm text-gray-900">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
           </p>
